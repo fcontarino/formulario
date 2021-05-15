@@ -10,5 +10,6 @@ $email
 \n Mensaje o consulta: \n $comentarios \n";
 $headers = "From: $email";
 mail($to, $email_subject, $email_body, $headers);
-echo 'Pronto nos estaremos comunicando con usted!'
+header("Status: 301 Moved Permanently");
+header("Location: ./gracias.html");
 ?>

@@ -6,8 +6,20 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-family: 'Sansita Swashed', cursive;
+    margin: auto;
+    margin-top: 300px;
+    margin-left: 450px;
+    margin-right: 450px;
+    box-shadow: 7px 13px 37px #1f53c5;
+    border: rgb(0, 0, 0) 2px solid;
+    padding: 100px;
+}
+
 body{
     background-image: url(../img/340452.png) ;
+    text-align: center;
 }
 
 .formulario{
